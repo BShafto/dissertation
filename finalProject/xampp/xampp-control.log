@@ -1,0 +1,40 @@
+22:11:15  [main] 	Initializing Control Panel
+22:11:16  [main] 	Windows Version:  Home  64-bit
+22:11:16  [main] 	XAMPP Version: 7.2.3
+22:11:16  [main] 	Control Panel Version: 3.2.2  [ Compiled: Nov 12th 2015 ]
+22:11:16  [main] 	You are not running with administrator rights! This will work for
+22:11:16  [main] 	most application stuff but whenever you do something with services
+22:11:16  [main] 	there will be a security dialogue or things will break! So think 
+22:11:16  [main] 	about running this application with administrator rights!
+22:11:16  [main] 	XAMPP Installation Directory: "c:\xampp\"
+22:11:16  [main] 	Checking for prerequisites
+22:15:52  [main] 	All prerequisites found
+22:15:52  [main] 	Initializing Modules
+22:15:52  [mysql] 	Problem detected!
+22:15:52  [mysql] 	Port 3306 in use by ""C:\Program Files\MySQL\MySQL Server 5.7\bin\mysqld.exe" --defaults-file="C:\ProgramData\MySQL\MySQL Server 5.7\my.ini" MySQL57"!
+22:15:52  [mysql] 	MySQL WILL NOT start without the configured ports free!
+22:15:52  [mysql] 	You need to uninstall/disable/reconfigure the blocking application
+22:15:52  [mysql] 	or reconfigure MySQL and the Control Panel to listen on a different port
+22:15:53  [main] 	Starting Check-Timer
+22:15:53  [main] 	Control Panel Ready
+00:47:31  [Apache] 	Status change detected: stopped
+00:47:32  [Apache] 	Error: Apache shutdown unexpectedly.
+00:47:32  [Apache] 	This may be due to a blocked port, missing dependencies, 
+00:47:32  [Apache] 	improper privileges, a crash, or a shutdown by another method.
+00:47:32  [Apache] 	Press the Logs button to view error logs and check
+00:47:32  [Apache] 	the Windows Event Viewer for more clues
+00:47:32  [Apache] 	If you need more help, copy and post this
+00:47:32  [Apache] 	entire log window on the forums
+13:01:39  [Apache] 	Status change detected: running
+13:01:50  [mysql] 	Status change detected: running
+13:02:08  [mysql] 	Status change detected: stopped
+13:02:08  [mysql] 	Error: MySQL shutdown unexpectedly.
+13:02:08  [mysql] 	This may be due to a blocked port, missing dependencies, 
+13:02:08  [mysql] 	improper privileges, a crash, or a shutdown by another method.
+13:02:08  [mysql] 	Press the Logs button to view error logs and check
+13:02:08  [mysql] 	the Windows Event Viewer for more clues
+13:02:08  [mysql] 	If you need more help, copy and post this
+13:02:08  [mysql] 	entire log window on the forums
+19:09:44  [main] 	Deinitializing Modules
+19:09:44  [main] 	Deinitializing Control Panel
+

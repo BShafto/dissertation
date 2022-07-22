@@ -1,0 +1,224 @@
+/* 
+    Created on : 15-Mar-2018, 19:08:46
+    Author     : bshafto
+*/
+
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+#myTitle {
+    font-size: 200%;
+    text-align: center;
+    color: black;
+}
+#curve_chart{
+    height: 500px; 
+    border: 1px solid black;
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+ }
+
+ @-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+
+ @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }
+
+ .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+ }    
+#userInput{
+    border: 1px solid black;
+    color: black;
+}
+#userInputSub{
+    border: 1px solid black;
+    color: black;
+    padding: 10px;
+}
+#userInputCat{
+    border: 1px solid black;
+    color: black;
+}
+#sec1 {
+    width: 49%;
+    height: 70vh;
+    float: left;
+    border: 1px solid black;
+}
+#sec2 {
+    width: 50%;
+    font-size: 100%;
+    text-align: center;
+    height: 70vh;
+    float: right;
+    border: 1px solid black;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    top: 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav b {
+    padding: 8px 8px 8px 32px;
+    top: 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav b:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  .sidenav b {font-size: 18px;}
+}
+
+#beerContainer {
+    width: calc(125vh/2);
+    height: calc(94vh/2);
+    color: white;
+    border: 1px solid white;
+    float: left;
+    margin: 5px;
+}
+#ciderContainer {
+    width: calc(125vh/2);
+    height: calc(94vh/2);
+    color: white;
+    border: 1px solid white;
+    margin: 5px;
+    float: left;
+}
+#spiritsContainer {
+    width: calc(125vh/2);
+    height: calc(94vh/2);
+    color: white;
+    border: 1px solid white;
+    margin: 5px;
+    float: left;
+}
+#shotsContainer {
+    width: calc(125vh/2);
+    height: calc(94vh/2);
+    color: white;
+    border: 1px solid white;
+    margin: 5px;
+    float: left;
+    clear: both;
+}
+#cocktailsContainer {
+    width: calc(125vh/2);
+    height: calc(94vh/2);
+    color: white;
+    border: 1px solid white;
+    margin: 5px;
+    float: left;
+}
+#wineContainer {
+    width: calc(125vh/2);
+    height: calc(94vh/2);
+    color: white;
+    border: 1px solid white;
+    margin: 5px;
+    float: left;
+}
+#c1 {
+    width: calc(125vh/2);
+    height: calc(47vh/10);
+    color: white;
+    font-size: 30px;
+    border: 1px solid white;
+}
+#name {
+    width: calc(62vh/2);
+    height: calc(41vh/6);
+    color: white;
+    font-size: 20px;
+    float: left;
+}
+#price {
+    width: calc(61vh/4);
+    height: calc(41vh/6);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+}
+#prices{
+    color: red;
+}
+#movement {
+    width: calc(61vh/4);
+    height: calc(41vh/6);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    float: left;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button:hover {
+    background: green;
+}
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+.increase{
+    color: red;
+}
+.decrease{
+    color: green;
+}
+
+
